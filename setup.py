@@ -27,7 +27,6 @@ setup(
     classifiers=[
         "Development Status :: 1 - Alpha",
     ],
-    scripts=['bin/syft_cmd'],
     install_requires=requirements,
     setup_requires=['pytest-runner'],
     tests_require=['pytest', 'pytest-flake8']
